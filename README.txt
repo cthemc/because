@@ -1,4 +1,4 @@
-=== BECAUSE: Polling plus Conversation===
+=== BECAUSE: Polling + Conversation===
 Contributors: (this should be a list of wordpress.org userids)
 Donate link: www.teambecause.com
 Tags: comments, spam, polling, opinions
@@ -7,6 +7,8 @@ Tested up to: 3.6
 Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+==short description==
 
 Bshort
 
