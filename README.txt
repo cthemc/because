@@ -57,9 +57,9 @@ plugins where more information needs to be conveyed that doesn't fit into the ca
 
 Unordered list:
 
-*add a poll question to any post
-*toggle poll feature
-*choose/upload images
+* add a poll question to any post
+* toggle poll feature
+* choose/upload images
 
 == Updates ==
 
