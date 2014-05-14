@@ -49,13 +49,10 @@ We empower the audience to give their opinion, and give content providers the di
 3. This is a screenshot also
 
 
-== Arbitrary section ==
+== Features ==
 
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
 
-Unordered list:
+For:
 
 * add a poll question to any post
 * toggle poll feature
@@ -66,6 +63,13 @@ Unordered list:
 * something
 * something else
 * third thing
+* vote on poll
+* leave comment
+* 280 character limit
+* upvote/downvote
+* reply to comment
+* sort comments by most recent or most popular
+* edit comment 
 
 == Updates ==
 
