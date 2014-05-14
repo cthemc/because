@@ -46,7 +46,7 @@ We empower the audience to give their opinion, and give content providers the di
 
 == Screenshots ==
 
-1. This is a screen shot of the poll that com
+1. This is a screen shot of the poll that com /Users/tjsantillo/Desktop/becauseSVN/assets/screenshot-1.png
 2. This is the second screen shot
 3. This is a screenshot also
 == Changelog ==
