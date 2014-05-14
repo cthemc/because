@@ -8,9 +8,7 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-==short description==
-
-Because replaces your current comment system with a combination of polling and 
+Because replaces your current comment system with a combination of polling and conversation
 
 == Description ==
 
