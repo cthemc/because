@@ -14,7 +14,9 @@ Bshort
 
 == Description ==
 
-Because works by allowing you to create and ask your readers a question after every post. When the readers answer they will be prompted to leave a comment.  All comments are 280 characters or less.
+Because increases audience engagement by providing a platform for a clear and concise audience discussion relevant to their content.
+Content providers created comment sections to engage audiences. However, most websites don't even get 1% of their readers to comment, and 75% of those comments are toxic or off topic! At Because, we've found a way to increase audience engagement and decrease irrelevant interactions. 
+We empower the audience to give their opinion, and give content providers the discussion their content deserve!
 
 == Installation ==
 
