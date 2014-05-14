@@ -1,6 +1,6 @@
-=== BECAUSE: Social Polling Plugin ===
+=== BECAUSE: Polling plus Conversation===
 Contributors: (this should be a list of wordpress.org userids)
-Donate link: http://example.com/
+Donate link: www.teambecause.com
 Tags: comments, spam, polling, opinions
 Requires at least: 3.5.1
 Tested up to: 3.6
@@ -8,17 +8,13 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Because works by allowing you to create and ask your readers a question after every post. When the readers answer they will be prompted to leave a comment.  All comments are 280 characters or less.
+Bshort
 
 == Description ==
 
 Because works by allowing you to create and ask your readers a question after every post. When the readers answer they will be prompted to leave a comment.  All comments are 280 characters or less.
 
 == Installation ==
-
-This section describes how to install the plugin and get it working.
-
-e.g.
 
 = Using The WordPress Dashboard =
 
@@ -43,15 +39,6 @@ e.g.
 4. Activate the plugin in the Plugin dashboard
 
 
-== Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
-= What about foo bar? =
-
-can you see me>? to foo bar dilemma.
 
 == Screenshots ==
 
