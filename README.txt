@@ -1,5 +1,5 @@
 === BECAUSE: Polling + Conversation===
-Contributors: (this should be a list of wordpress.org userids)
+Contributors: (tjsantilo)
 Donate link: www.teambecause.com
 Tags: comments, spam, polling, opinions
 Requires at least: 3.5.1
@@ -49,6 +49,7 @@ We empower the audience to give their opinion, and give content providers the di
 1. This is a screen shot of the poll that com /Users/tjsantillo/Desktop/becauseSVN/assets/screenshot-1.png
 2. This is the second screen shot
 3. This is a screenshot also
+
 == Changelog ==
 
 = 1.0 =
