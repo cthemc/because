@@ -51,50 +51,23 @@ We empower the audience to give their opinion, and give content providers the di
 
 == Features ==
 
+For you:
 
-For:
-
-* add a poll question to any post
+* add any poll question to any post
 * toggle poll feature
 * choose/upload images
 
-Unordered list:
+For your readers:
 
-* something
-* something else
-* third thing
 * vote on poll
 * leave comment
 * 280 character limit
 * upvote/downvote
 * reply to comment
 * sort comments by most recent or most popular
-* edit comment 
+* edit/delete comment 
 
 == Updates ==
 
 This plugin supports the [GitHub Updater](https://github.com/afragen/github-updater) plugin, so if you install that, this plugin becomes automatically updateable direct from GitHub. Any submission to WP.org repo will make this redundant.
 
-== A brief Markdown Example ==
-
-Ordered list:
-
-1. Some feature
-1. Another feature
-1. Something else about the plugin
-
-Unordered list:
-
-
-
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
