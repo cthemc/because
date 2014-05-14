@@ -54,6 +54,8 @@ We empower the audience to give their opinion, and give content providers the di
 You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
 plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
 "installation."  Arbitrary sections will be shown below the built-in sections outlined above.
+
+Unordered list:
 *add a poll question to any post
 *toggle poll feature
 *choose/upload images
