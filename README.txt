@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ==short description==
 
-short
+short description goes here
 
 == Description ==
 
