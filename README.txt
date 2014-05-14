@@ -56,6 +56,7 @@ plugins where more information needs to be conveyed that doesn't fit into the ca
 "installation."  Arbitrary sections will be shown below the built-in sections outlined above.
 
 Unordered list:
+
 *add a poll question to any post
 *toggle poll feature
 *choose/upload images
