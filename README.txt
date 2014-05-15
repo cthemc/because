@@ -44,14 +44,11 @@ We empower the audience to give their opinion, and give content providers the di
 
 == Screenshots ==
 
-1. This is a screen shot of the poll
+1. This poll follows your post
 
-2. This is the second screen shot
+2. Comments and replies
 
-3. This is a screenshot also
-
-4. bavkend
-
+3. The backend
 
 
 == Features ==
