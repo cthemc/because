@@ -6,18 +6,18 @@
  * also follow WordPress Coding Standards and PHP best practices.
  *
  * @package   Social_Polling
- * @author    Your Name <email@example.com>
+ * @author    santillotj@gmail.com
  * @license   GPL-2.0+
- * @link      http://example.com
- * @copyright 2014 Your Name or Company Name
+ * @link      http://www.teambecause.com
+ * @copyright 2014 TeamBecause LLC
  *
  * @wordpress-plugin
- * Plugin Name:       @TODO
- * Plugin URI:        @TODO
- * Description:       @TODO
+ * Plugin Name:       Because
+ * Plugin URI:        www.teambecause.com
+ * Description:       Polling + Comments
  * Version:           1.0.0
- * Author:            @TODO
- * Author URI:        @TODO
+ * Author:            T.J. Santillo
+ * Author URI:        http://profiles.wordpress.org/tjsantilo/
  * Text Domain:       social-polling-locale
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
