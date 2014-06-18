@@ -15,7 +15,7 @@
  * Plugin Name:       Because
  * Plugin URI:        www.teambecause.com
  * Description:       Polling + Comments
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            T.J. Santillo
  * Author URI:        http://profiles.wordpress.org/tjsantilo/
  * Text Domain:       social-polling-locale
