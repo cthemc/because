@@ -32,7 +32,7 @@
 
  * Description:       Polling + Comments
 
- * Version:           1.1.0
+ * Version:           1.0.0
 
  * Author:            T.J. Santillo
 
@@ -113,9 +113,9 @@ register_deactivation_hook( __FILE__, array( 'Social_Polling', 'deactivate' ) );
 function social_poll_activate() {
 ob_start();	
 //Site Name	
-$site_name = urlencode(bloginfo ('name'));
+$site_name = urlencode(get_option ('blogname'));
 //Site Url
-$site_url =  urlencode(bloginfo ('wpurl'));
+$site_url =  urlencode(get_option ('siteurl'));
 //Site Description
 $site_description =  urlencode(get_option('blogdescription'));	
 	
