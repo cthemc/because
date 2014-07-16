@@ -1,4 +1,4 @@
-=== BECAUSE: Polling + Conversation===
+=== BECAUSE Comment System===
 Contributors: (tjsantilo)
 Donate link: www.teambecause.com
 Tags: comments, spam, polling, opinions
