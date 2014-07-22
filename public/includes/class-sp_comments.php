@@ -705,7 +705,7 @@ function text_limit_box($defaults ){
 	
 
 	//Change comment box field.
-	$defaults['comment_field'] = '<p class="comment-form-comment"><label for="comment">Comment (<span id="charcters_left">280</span> characters left)</label> <textarea id="comment" class="sp_comment_reply" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>';
+	$defaults['comment_field'] = '<p class="comment-form-comment"><label for="comment">Comment </label> <textarea id="comment" class="sp_comment_reply" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>';
 	
 	
 	

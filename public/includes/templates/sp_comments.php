@@ -31,7 +31,7 @@ if ( post_password_required() ) {
 		?>
 	</h2>
 
-	<div id="sp_comments_order" data-post_id="<?php echo $post->ID; ?>">Orderby 
+	<div id="sp_comments_order" data-post_id="<?php echo $post->ID; ?>">Order by:
     	<a href="javascript:void(0)" class="sp_orderby_param" data-sortby="newest" data-nonce="<?php echo wp_create_nonce("comment_sorting_nonce") ?>">Newest</a> | 
         <a href="javascript:void(0)" class="sp_orderby_param" data-sortby="oldest" data-nonce="<?php echo wp_create_nonce("comment_sorting_nonce") ?>">Oldest</a> |
         <a href="javascript:void(0)" class="sp_orderby_param" data-sortby="top" data-nonce="<?php echo wp_create_nonce("comment_sorting_nonce") ?>">Top</a> 

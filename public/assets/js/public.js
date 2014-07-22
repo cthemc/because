@@ -232,7 +232,7 @@
 	
 	
 	//Character limit
-	jQuery('#commentform textarea#comment').keypress(function(e) {
+	/*jQuery('#commentform textarea#comment').keypress(function(e) {
 			
 		jQuery('#commentform textarea#comment').attr('maxlength', 280);	
 			
