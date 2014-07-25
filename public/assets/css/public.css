@@ -256,7 +256,7 @@ width:25px;
 height:25px;
 text-align:center;
 line-height:25px;
-font-size:.6em;
+font-size:.85em;
 font-weight:bold;
 		 }
 .sp_comments-area .comment_count{
@@ -274,7 +274,6 @@ font-weight:bold;
 .sp_comment-list li.comment.depth-1 > .comment-body:first-of-type{
 
 	background-color:inherit;
-	box-shadow: 2 2px 2px 0px rgba(128, 128, 128, 0.25);
 	
 	
 }
@@ -363,6 +362,22 @@ text-shadow: 1px 1px #666;
 {
 	display: none;
 }
+
+
+
+/* Additions 7/25/14 BB - enhanced compatibility across sites and browsers */
+
+ol, ol ol, ol ol ol, ul, ul ul, ul ul ul
+{
+	list-style-type: none;
+}
+
+
+.comment-body
+{
+	border-bottom: 1px solid #ccc;
+}
+
 
 /*
 //----------------------------
