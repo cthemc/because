@@ -32,7 +32,7 @@
 
  * Description:       Polling + Comments
 
- * Version:           1.1.8
+ * Version:           1.1.9
 
  * Author:            T.J. Santillo
 
