@@ -14,7 +14,7 @@ Because replaces your current comment system with a combination of polling and c
 
 Because increases audience engagement by providing a platform for a clear and concise audience discussion relevant to their content.
 Content providers created comment sections to engage audiences. However, most websites don't even get 1% of their readers to comment, and 75% of those comments are toxic or off topic! At Because, we've found a way to increase audience engagement and decrease irrelevant interactions. 
-We empower the audience to give their opinion, and give content providers the discussion their content deserve!
+We empower the audience to give their opinion, and give content providers the discussion their content deserve!!!
 
 == Installation ==
 
