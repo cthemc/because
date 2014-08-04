@@ -44,9 +44,9 @@ We empower the audience to give their opinion, and give content providers the di
 
 == Screenshots ==
 
-1. This poll follows your post
+1. Social Polling + Discussion
 
-2. Comments and replies
+2. Join the Discussion
 
 3. The backend
 
