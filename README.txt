@@ -14,7 +14,7 @@ Because replaces your current comment system with a combination of polling and c
 
 Content providers created comment sections to engage audiences. However, most websites see comment rates of less than 1%, and three-quarters of those are off-topic or toxic remarks.
 
-Because is a new commenting platform that increases audience engagement by providing new avenues for chanelling audience discussions.
+Because is a new commenting platform that increases audience engagement by providing new avenues for channelling audience discussions.
 
 At Because, we've found a way to increase audience engagement and decrease irrelevant interactions. 
 We empower the audience to give their opinion, and give content providers the discussion their content deserves!
