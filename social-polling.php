@@ -30,7 +30,7 @@
 
  * Plugin URI:        www.teambecause.com
 
- * Description:       Polling + Comments
+ * Description:       Because is a new commenting platform that increases audience engagement by providing new avenues for channelling audience discussions.
 
  * Version:           1.2.0
 
