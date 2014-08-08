@@ -32,7 +32,7 @@
 
  * Description:       Because is a new commenting platform that increases audience engagement by providing new avenues for channelling audience discussions.
 
- * Version:           1.2.0
+ * Version:           1.2.1
 
  * Author:            T.J. Santillo
 
