@@ -247,19 +247,30 @@ padding-right: 10px;
 	
 }.sp_comment-list  .comment-author img{ overflow:hidden; border-radius:50px;}
 .sp_comment-list .comment_vote_action.flag{ color:red;}
-	.sp_comment-list .comment_vote_action{ display:inline-block; overflow:hidden; margin-right:5px;}
-	.sp_comment-list .comment_karma_count{ float:left; margin-right:5px; vertical-align:middle;
-		xbackground-color: #499bea;
+	.sp_comment-list .comment_vote_action{ display:block; overflow:hidden; margin-right:none!important; }
+
+
+.sp_comment-list .comment_karma_count
+{ 
+float:none;
+margin:0; 
 color: inherit;
 padding: 0px 0px;
 border-radius:60px;
 width:25px;
-height:25px;
+height:auto;
 text-align:center;
-line-height:25px;
-font-size:.85em;
+line-height:1!important;
+font-size:1em;
 font-weight:bold;
-		 }
+}
+
+
+a.votingbutton img:HOVER
+{
+	opacity:.5;
+}
+
 .sp_comments-area .comment_count{
 	font-weight:700;
 	
@@ -354,7 +365,6 @@ text-shadow: 1px 1px #666;
 		-webkit-transition: all .4s;  
 		-ms-transition: all .4s;  
 		-o-transition: all .4s;  
-	
 }
 
 /* Disable embedded youtube span class in Wordpress */
@@ -379,7 +389,19 @@ ol, ol ol, ol ol ol, ul, ul ul, ul ul ul
 	border-bottom: 1px solid #ccc;
 }
 
+.votingbutton
+{
+	display:block;
+	margin:0;
+	padding:0;
+	max-height:25px;
+	max-width:25px;
+}
 
+.comment-body a img:hover
+{
+	opacity: 0.5;
+}
 /*
 //----------------------------
 //END Comment Template

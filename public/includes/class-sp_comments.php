@@ -1641,17 +1641,28 @@ function mytheme_comment($comment, $args, $depth) {
 
 	<style type="text/css">
 
-		.comment_vote_action{ display:inline-block; overflow:hidden; margin-right:5px;}
+		.comment_vote_action{ display:block; overflow:hidden; margin-right:5px;}
 
-		 .comment_karma_count{ float:left; margin-right:5px; vertical-align:middle;}
+		 .comment_karma_count{ float:none; margin-right:5px; vertical-align:middle;}
 
 	</style>
 
 	<div class="comment_controls">
 
-  		<div class="comment_karma_count"><?php echo $comment_karma; ?></div>
+  		
 
-  			<a data-nonce="<?php echo $comment_nonce; ?>" class="upvote comment_vote_action" href="javascript:void(0)" data_action="upvote" data-comment_id="<?php echo $comment->comment_ID;?>">&#9650; Upvote</a><a  data-nonce="<?php echo $comment_nonce; ?>" class="downvote comment_vote_action" href="javascript:void(0)" data_action="downvote"  data-comment_id="<?php echo $comment->comment_ID;?>">&#9660; Downvote</a><?php /*?><a  data-nonce="<?php echo $comment_nonce; ?>" class="flag comment_vote_action" href="javascript:void(0)" data_action="flag"  data-comment_id="<?php echo $comment->comment_ID;?>"><strong>!</strong>Flag Comment</a><?php */?>
+<a data-nonce="<?php echo $comment_nonce; ?>" class="upvote comment_vote_action" href="javascript:void(0)" data_action="upvote" data-comment_id="<?php echo $comment->comment_ID;?>">
+<?php
+echo '<img src="' . plugins_url( '../../assets/upvote.png' , __FILE__ ) . '" class="votingbutton"> ';
+?>
+</a>
+  			 <div class="comment_karma_count"><?php echo $comment_karma; ?></div>
+<a data-nonce="<?php echo $comment_nonce; ?>" class="downvote comment_vote_action" href="javascript:void(0)" data_action="downvote"  data-comment_id="<?php echo $comment->comment_ID;?>">
+<?php
+echo '<img src="' . plugins_url( '../../assets/downvote.png' , __FILE__ ) . '" class="votingbutton"> ';
+?> 
+</a>
+ <?php /*?><a  data-nonce="<?php echo $comment_nonce; ?>" class="flag comment_vote_action" href="javascript:void(0)" data_action="flag"  data-comment_id="<?php echo $comment->comment_ID;?>"><strong>!</strong>Flag Comment</a><?php */?>
 
         </div>
 
