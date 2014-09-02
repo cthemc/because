@@ -1,7 +1,7 @@
 === BECAUSE Commenting System===
 Contributors: (tjsantilo)
 Donate link: www.teambecause.com
-Tags: comments, spam, polling, opinions, community, because, social, moderation, conversation, engagement, interactions, insight
+Tags: comments,spam,polling, opinions,community,because,social,moderation,conversation, engagement,interactions,insight
  
 Requires at least: 3.5.1
 Tested up to: 4.0
