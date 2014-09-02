@@ -3,7 +3,7 @@ Contributors: (tjsantilo)
 Donate link: www.teambecause.com
 Tags: comments, spam, polling, opinions
 Requires at least: 3.5.1
-Tested up to: 3.6
+Tested up to: 4.0
 <<<<<<< .mine
 Stable tag: 1.2.5
 =======
