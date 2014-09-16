@@ -33,9 +33,9 @@
  * Description:       Because is a new commenting platform that increases audience engagement by providing new avenues for channelling audience discussions.
 
 <<<<<<< .mine
- * Version:           1.2.8
+ * Version:           1.2.9
 =======
- * Version:           1.2.8
+ * Version:           1.2.9
 >>>>>>> .r969865
 
  * Author:            T.J. Santillo
@@ -108,7 +108,7 @@ require_once( plugin_dir_path( __FILE__ ) . 'public/includes/class-sp_comments.p
  */
 
 // SETTINGS
-define('BECAUSE_ADMIN_SERVER_URL', 'http://108.174.62.50/because/symfony/web/api/ <replace with your own location>
+define('BECAUSE_ADMIN_SERVER_URL', 'http://www.teambecause.com/pluginactivated.php <replace with your own location>
 action');
 define('BECAUSE_ADMIN_SECRET_TOKEN_NAME', 'secretToken');
 define('BECAUSE_ADMIN_SECRET_TOKEN_VALUE', 'X-Secret-Token');
