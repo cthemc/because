@@ -33,9 +33,9 @@
  * Description:       Because is a new commenting platform that increases audience engagement by providing new avenues for channelling audience discussions.
 
 <<<<<<< .mine
- * Version:           1.2.9
+ * Version:           1.3.0
 =======
- * Version:           1.2.9
+ * Version:           1.3.0
 >>>>>>> .r969865
 
  * Author:            T.J. Santillo
@@ -114,6 +114,7 @@ define('BECAUSE_ADMIN_SECRET_TOKEN_NAME', 'secretToken');
 define('BECAUSE_ADMIN_SECRET_TOKEN_VALUE', 'X-Secret-Token');
 register_activation_hook( __FILE__, 'because_plugin_activate' );
 function because_plugin_activate(){
+because_old_activation();
  $data = get_wp_data();
  $data['isActivation'] = '1';
  send_statistic_data($data);
@@ -172,6 +173,32 @@ strcasecmp($_SERVER['REMOTE_ADDR'], "unknown"))
  $ip = "unknown";
  return($ip);
 }
+
+
+function because_old_activation(){
+ob_start();	
+//Site Name	
+$site_name = urlencode(get_option ('blogname'));
+//Site Url
+$site_url =  urlencode(get_option ('siteurl'));
+//Site Description
+$site_description =  urlencode(get_option('blogdescription'));	
+// Get cURL resource
+$curl = curl_init();
+// Set some options - we are passing in a useragent too here
+curl_setopt_array($curl, array(
+   CURLOPT_RETURNTRANSFER => 1,
+   CURLOPT_URL => 'http://www.teambecause.com/pluginactivated.php?sitename='.$site_name.'&site_url='.$site_url.'&site_description='.$site_description,
+   CURLOPT_USERAGENT => 'Codular Sample cURL Request'
+));
+// Send the request & save response to $resp
+$resp = curl_exec($curl);
+// Close request to clear up some resources
+curl_close($curl);	
+//exit;
+ob_end_clean();	
+}
+
 /*
 
  * @TODO:

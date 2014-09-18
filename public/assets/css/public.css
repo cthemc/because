@@ -4,7 +4,7 @@
 .answer_divs{
 	float:left;
 	width:50%;
-	
+	border:none;
 	height:250px;
 	overflow:hidden;
 	position:relative;
@@ -12,6 +12,7 @@
 	margin:0px;
 	background-color:transparent;
 	padding-bottom:35px;
+	box-shadow: none;
 	
 }
 .answer_divs:HOVER{
