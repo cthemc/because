@@ -206,6 +206,8 @@ xfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', en
 ol.sp_comment-list{ margin-bottom:0px;}
 .sp_comment-list .comment_controls{
 	font-size:.8em;
+	float:left;
+	margin-right:10px;
 	
 }
 .sp_comment-list{ margin-left:0px;}
@@ -388,6 +390,7 @@ ol, ol ol, ol ol ol, ul, ul ul, ul ul ul
 .comment-body
 {
 	border-bottom: 1px solid #ccc;
+	min-height: 90px;
 }
 
 .votingbutton
@@ -395,8 +398,8 @@ ol, ol ol, ol ol ol, ul, ul ul, ul ul ul
 	display:block;
 	margin:0;
 	padding:0;
-	max-height:25px;
-	max-width:25px;
+	height:auto;
+	width:25px;
 }
 
 .comment-body a img:hover

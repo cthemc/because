@@ -51,12 +51,18 @@
 				show_results($post_id);
 
 				
+		var $comment_box_offset = $('#respond').offset().top + 'px';
+
+		setTimeout(function() {
+  $("html, body").animate({ scrollTop: $comment_box_offset  }, 450);
+}, 2000);
+		
 
 				
 
 				//console.log(data+ajaxurl);
 
-				
+	
 
 			}//success
 
@@ -67,7 +73,6 @@
 				
 
 	})//$(document).on('click', 'button.answer_divs', function(){
-
 	
 
 	
@@ -166,7 +171,7 @@
 
 				$('#answer_2_wrapper .poll_results').html($answer2_html);
 
-				$('#social_polling_see_results_wrapper').html('<button class="joindiscussion">Join the discussion below</button>');
+				$('#social_polling_see_results_wrapper').html('');
 
 				
 
